@@ -1,0 +1,151 @@
+/* ====table of content =====  */
+/*
+---------------------------------------------
+1.general
+2.navbar
+3.banner
+4.about
+5.services
+6.portfolio
+7.contact
+8.footer
+-----------------------------------------------
+*/
+
+/* 1.general  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color: #C3ACCE;
+    --black-color:#070707;
+    --bg-white:white;
+    --gray-color:#DFD9E2;
+    --chocolate-color:#433633;
+    --gradient-color:linear-gradient(-224deg,var(--background-color) 20%, #c77dff 100% );
+
+    --gradient-text:linear-gradient(120,#b5179e 20%,#7209b7 50%,#3f37c9 79%);
+
+    /* text color  */
+
+    --primary-text:#240046;
+    --text-gray:var(--gray-color);
+    --text-white:var(--bg-white);
+}
+
+/* custom scroll bar  */
+
+::-webkit-scrollbar{
+    width:6px
+}
+
+::-webkit-scrollbar-track{
+    background:var(--gray-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--background-color);
+}
+
+section{
+    padding: 20px 0px;
+}
+
+.main-btn{
+    display: inline-block;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    padding: 10px 27px;
+    background: transparent;
+    border: 2px solid var(--background-color);
+    color: var(--background-color);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    &:hover{
+        background-color: var(--background-color);
+        border-color: var(--background-color);
+        color: var(--bg-white);
+    }
+}
+
+h1{
+    font-size: 54px;
+    line-height: 68px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1 span{
+    color: #3f37c9;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 1.3px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 19px;
+}
+
+h6{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    line-height: 1.3px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p{
+    color:var(--gray-color);
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.subtitle{
+    display:inline-block;
+    font-weight: 600;
+    letter-spacing:0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    background-color:#433;
+    /*
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    */
+}
+
+input:hover,
+input:focus,
+textarea:focus,
+textarea:hover,button{
+
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* navbar  */
+
+. 
