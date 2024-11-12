@@ -70,8 +70,8 @@ section{
     letter-spacing: 2px;
     text-decoration: none;
     &:hover{
-        background-color: var(--background-color);
-        border-color: var(--background-color);
+        background-color:#3f37c9;
+        border-color: #3f37c9;
         color: var(--bg-white);
     }
 }
@@ -80,7 +80,7 @@ h1{
     font-size: 54px;
     line-height: 68px;
     font-weight: 800;
-    color: white;
+    color:#070707;
     margin-bottom: 20px;
 }
 
@@ -99,7 +99,7 @@ h2{
 h3{
     font-size: 19px;
     font-weight: 600;
-    color: white;
+    color:#7209b7;
     margin-bottom: 19px;
 }
 
@@ -110,7 +110,7 @@ h6{
     display: block;
     line-height: 1.3px;
     font-weight: 600;
-    color: white;
+    color:#240046;
     margin-bottom: 20px;
 }
 
@@ -200,6 +200,7 @@ textarea:hover,button{
 }
 
 /*after scrolling fixed back ground off navbar*/
+/*=====will use this while */
 .header-scrolled{
     position: fixed;
     top: 0;
@@ -214,8 +215,47 @@ textarea:hover,button{
     
 }
 
+/* scrolling navbar  */
+.header-scrolled{
+    height: auto;
+}
+
+.header_wrapper .menu-navbar-nav{
+    text-align: center;
+    background-color:var(--gray-color);
+    padding-bottom: 15px;
+}
+
+.header_wrapper .nav-item .nav-link{
+    padding:15px;
+}
 
 
+
+
+/*========== banner =====================*/
+
+.banner-wrapper{
+    width: 100vw;
+    height:100vh ;
+    min-height: 650px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-attachment: fixed;/*for fixing the background*/
+   padding: 70px 0 100px 0 ;
+
+}
+
+
+/*
+.banner-wrapper img{
+    background-repeat: no-repeat;
+    width: 68%;
+}
+
+
+*/
 
 
 
