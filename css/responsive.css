@@ -16,6 +16,11 @@
     }
 
     /* navbar  */
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color:var(--gray-color);
+        padding-bottom: 15px;
+    }
 
 
     /* banner wrapper  */
